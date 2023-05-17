@@ -1,0 +1,15 @@
+{
+  "name": "@nix/console",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "nix-console": "./bin/nix-console.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
