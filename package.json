@@ -1,8 +1,10 @@
 {
-  "name": "@nix/console",
-  "version": "1.0.0",
+  "name": "nix-console-cmd",
+  "version": "1.0.1",
   "description": "",
+  "private": false,
   "main": "index.js",
+  "_type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -11,5 +13,10 @@
   },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "@aws-sdk/client-dynamodb": "^3.332.0",
+    "@aws-sdk/lib-dynamodb": "^3.332.0",
+    "yargs": "^17.7.2"
+  }
 }
